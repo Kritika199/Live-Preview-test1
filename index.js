@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rich Text Editor with Live Preview</title>
-</head>
-<body>
-    <iframe id="richTextField" style="width: 100%; height: 400px;"></iframe>
 
-    <script>
         // Salesforce Marketing Cloud SDK Initialization
         var SDK = function (config, whitelistOverride, sslOverride) {
             if (Array.isArray(config)) {
@@ -325,6 +315,4 @@
         if (typeof (module) === 'object') {
             module.exports = SDK;
         }
-    </script>
-</body>
-</html>
+   
